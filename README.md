@@ -57,9 +57,8 @@ To update any item, locate it and edit its fields:
 2. Place it inside the `public/` folder.
 3. Open `src/app/page.tsx`, find the menu item in `MENU_ITEMS`, and update the `image` field to reference your new filename (e.g. `image: "/my-real-lasagna.png"`).
 
-### How to Update Links (WhatsApp / Instagram / Foodpanda)
+### How to Update Links (Instagram / Foodpanda)
 Open `src/app/page.tsx` and scroll down to the **ORDER MODAL** section (around line 600) or check the anchor links in the buttons. Update the `href` strings with your real accounts:
-- **WhatsApp**: Replace `https://wa.me/923001234567` with `https://wa.me/<your-phone-number-with-country-code>`.
 - **Instagram**: Ensure the Instagram button points to your profile.
 - **Foodpanda**: Replace `https://www.foodpanda.pk` with your actual foodpanda store page link.
 

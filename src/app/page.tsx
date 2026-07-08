@@ -790,22 +790,6 @@ export default function Home() {
                 </div>
               </a>
 
-              {/* Option 3: WhatsApp Chat */}
-              <a
-                href="https://wa.me/923001234567" // Placeholder number
-                target="_blank"
-                rel="noreferrer"
-                className="flex items-center gap-4 p-4 bg-white hover:bg-emerald-700 hover:text-white border-2 border-[#262B17] rounded-2xl shadow-[4px_4px_0px_0px_#262B17] hover:shadow-[2px_2px_0px_0px_#262B17] active:translate-x-[2px] active:translate-y-[2px] active:shadow-none transition-all group"
-              >
-                <div className="w-12 h-12 shrink-0 bg-emerald-700 group-hover:bg-white text-white group-hover:text-emerald-700 border border-[#262B17]/15 rounded-xl flex items-center justify-center text-xl font-bold shadow-inner">
-                  💬
-                </div>
-                <div className="text-left">
-                  <h4 className="font-bold text-base">WhatsApp Ordering</h4>
-                  <p className="text-xs text-[#8D9671] group-hover:text-white/80">Direct chat with the Parched kitchen team</p>
-                </div>
-              </a>
-
             </div>
 
             <div className="text-center pt-2">
