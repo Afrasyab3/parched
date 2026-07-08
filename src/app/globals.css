@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  
+  --color-brand-cream: #FAF5ED;
+  --color-brand-cream-dark: #EFECE2;
+  --color-brand-green: #60693E;
+  --color-brand-green-hover: #4E5531;
+  --color-brand-green-dark: #262B17;
+  --color-brand-green-muted: #8D9671;
+  --color-brand-pink: #D56B4E;
+  --color-brand-pink-hover: #B74E33;
+  --color-brand-pink-light: #FAF5ED;
+  --color-brand-terracotta: #D56B4E;
+  --color-brand-mustard: #C8943D;
+}
+
+/* Base custom resets */
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: var(--color-brand-green);
+  color: white;
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+}
+
+@keyframes pulse-gentle {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(96, 105, 62, 0.4);
+  }
+  50% {
+    transform: scale(1.03);
+    box-shadow: 0 0 0 10px rgba(96, 105, 62, 0);
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(-3deg); }
+  50% { transform: rotate(3deg); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+.animate-pulse-gentle {
+  animation: pulse-gentle 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-wiggle-slow {
+  animation: wiggle 3s ease-in-out infinite;
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Glassmorphism details */
+.glass-panel {
+  background: rgba(250, 246, 240, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(44, 26, 17, 0.08);
+}
+
+/* Card perspective container */
+.card-perspective {
+  perspective: 1000px;
+}
