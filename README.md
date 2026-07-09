@@ -28,10 +28,10 @@ npm run build
 
 ## 📁 Key File Structure
 
-- **[`src/app/page.tsx`](file:///c:/Users/Lenovo/Desktop/Websites/Parched/src/app/page.tsx)**: Main single-page document containing all sections (Hero, Best Sellers Menu, Value Props, Reviews, operating Timings, and sticky Order Modal).
-- **[`src/app/globals.css`](file:///c:/Users/Lenovo/Desktop/Websites/Parched/src/app/globals.css)**: Implements Tailwind CSS v4 design tokens, color palette configurations (olive green, cream, terracotta), scroll behaviors, and animations.
-- **[`src/app/layout.tsx`](file:///c:/Users/Lenovo/Desktop/Websites/Parched/src/app/layout.tsx)**: Manages layout wrapping, SEO title tags, descriptions, OpenGraph social card previews, and pre-loading CDN fonts (`Plus Jakarta Sans` & `Outfit`).
-- **[`public/`](file:///c:/Users/Lenovo/Desktop/Websites/Parched/public/)**: Contains all generated mock food photography assets used throughout the best sellers cards.
+- **[`src/app/page.tsx`](file:///c:/Users/Lenovo/Desktop/git%20repo/parched/src/app/page.tsx)**: Main single-page document containing all sections (Hero, Best Sellers Menu, Value Props, Reviews, operating Timings, and sticky Order Modal).
+- **[`src/app/globals.css`](file:///c:/Users/Lenovo/Desktop/git%20repo/parched/src/app/globals.css)**: Implements Tailwind CSS v4 design tokens, color palette configurations (olive green, cream, terracotta), scroll behaviors, and animations.
+- **[`src/app/layout.tsx`](file:///c:/Users/Lenovo/Desktop/git%20repo/parched/src/app/layout.tsx)**: Manages layout wrapping, SEO title tags, descriptions, OpenGraph social card previews, and pre-loading CDN fonts (`Plus Jakarta Sans` & `Outfit`).
+- **[`public/`](file:///c:/Users/Lenovo/Desktop/git%20repo/parched/public/)**: Contains all generated mock food photography assets used throughout the best sellers cards.
 
 ---
 
@@ -88,7 +88,7 @@ This exposes your active development port (`http://localhost:3000`) to a tempora
 
 ### Method 3: Export as Static HTML Files
 To hand over raw code files that can be uploaded to standard hosting providers (like Hostinger, Netlify, or CPanel):
-1. Add `output: 'export'` to your [`next.config.ts`](file:///c:/Users/Lenovo/Desktop/Websites/Parched/next.config.ts) config file.
+1. Add `output: 'export'` to your [`next.config.ts`](file:///c:/Users/Lenovo/Desktop/git%20repo/parched/next.config.ts) config file.
 2. Run:
    ```bash
    npm run build
